@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --cor-principal: #79c6c0;
+  --cor-fundo: #1f1f1f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+header {
+  background-color: var(--cor-fundo);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  
+}
+
+header section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.secaoHeader ul {
+  display: flex;
+  flex-direction: row;
+  color: #eee;
+}
+
+.secaoHeader ul li {
+  display: flex;
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.secaoHeader ul li:hover {
+  color: var(--cor-principal);
+}
+
+.secaoHeader button {
+  padding: .75rem;
+  background-color: var(--cor-principal);
+  color: #eee;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.secaoHeader button:hover {
+  opacity: 0.8;
+}
+
+#informativo {
+  display: flex;
+  align-items: justify;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('../Imagens/1925614-grafico-grafico-de-mercado-de-acoes-investimento-em-fundo-azul-vetor.jpg');
+  
+}
+
+#informativo h1,
+#informativo h3 {
+  margin-left: 15%;
+}
+
+#informativo h1 {
+  color: #eee;
+  font-size: 4rem;
+  width: 50%;
+  padding-bottom: 5rem;
+}
+
+#informativo h3 {
+  color: #aaa;
+  font-size: 1.20rem;
+  width: 30%;
+}
+
+main {
+  background-color: var(--cor-fundo);
+}
+
+main h1 {
+  padding-top: 5rem;
+  /* padding-bottom: 3.5rem; */
+  font-size: 48px;
+  color: var(--cor-principal);
+}
+
+.imagemDireita {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+.imagemDireita .texto h1 {
+  font-size: 36px;
+  color: #eee;
+  text-align: justify;
+  width: 65%;
+}
+
+.texto p {
+  color: #eee;
+  text-align: justify;
+  width: 70%;
+  font-size: 18px;
+}
+
+.texto ul {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.texto ul li {
+  color: #eee;
+  font-size: 18px;
+}
+
+.texto {
+  margin-left: 5%;
+  margin-top: 1.75rem;
+}
